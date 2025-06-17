@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  header,
+  nav,
+  .navbar,
+  .sidebar,
+  .print-hidden,
+  .print\:hidden {
+    display: none !important;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+  }
+}

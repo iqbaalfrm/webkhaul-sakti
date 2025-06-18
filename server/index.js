@@ -6,10 +6,9 @@ import familyRoutes from './routes/families.js';
 import iuranRoutes from './routes/iuran.js';
 import statistikRoutes from './routes/statistik.js';
 
-dotenv.config();
+dotenv.config(); // Load .env
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
